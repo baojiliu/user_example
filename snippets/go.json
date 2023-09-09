@@ -1,0 +1,16 @@
+{
+  "kratos log infow": {
+    "prefix": "infow",
+    "body": [
+      "s.logHelper.Infow(\"msg\", \"\")"
+    ],
+    "description": "kratos log infow"
+  },
+  "kratos log errorw": {
+    "prefix": "errorw",
+    "body": [
+      "s.logHelper.Errow(\"msg\", \"\")"
+    ],
+    "description": "kratos log errorw"
+  }
+}
