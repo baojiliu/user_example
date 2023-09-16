@@ -3,14 +3,13 @@
 -- Please use this mappings table to set keyboard mapping since this is the
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
--- copilot按键设置
-vim.api.nvim_set_keymap('i', '<C-L>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
 return {
   -- first key is the mode
   n = {
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>mt"] = { "<cmd>TagbarToggle<cr>", desc = "Toggle Tagbar" },
+    ["<leader>md"] = { "<cmd>DBUI<cr>", desc = "DB" },
     ["<leader>mu"] = { "<cmd>UndotreeToggle<cr>", desc = "Toggle Undotree" },
     ["<leader>m"] = { desc = "😀 Me" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
