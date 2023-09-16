@@ -2,14 +2,16 @@
   "kratos log infow": {
     "prefix": "infow",
     "body": [
-      "s.logHelper.Infow(\"msg\", \"\")"
+      "$1.logHelper.Infow(\"msg\", \"\",
+      \"\",$2)"
     ],
     "description": "kratos log infow"
   },
   "kratos log errorw": {
     "prefix": "errorw",
     "body": [
-      "s.logHelper.Errow(\"msg\", \"\")"
+      "${1:s}.logHelper.Infow(\"msg\",\"$2\",",
+      " \"error\",${3:err})"
     ],
     "description": "kratos log errorw"
   }

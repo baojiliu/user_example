@@ -10,6 +10,9 @@ return {
   n = {
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
+    ["<leader>mt"] = { "<cmd>TagbarToggle<cr>", desc = "Toggle Tagbar" },
+    ["<leader>mu"] = { "<cmd>UndotreeToggle<cr>", desc = "Toggle Undotree" },
+    ["<leader>m"] = { desc = "😀 Me" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
