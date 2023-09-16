@@ -92,10 +92,8 @@ return {
         init = function()
             -- Your DBUI configuration
             --vim.g.db_ui_disable_mappings = 1
-            vim.g.dbs = {
-                dev = '',
-            }
             vim.g.db_ui_use_nerd_fonts = 1
+            --vim.g.db_ui_dotenv_variable_prefix="DB_UI_"
         end,
     },
 }
