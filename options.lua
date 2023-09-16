@@ -11,6 +11,8 @@ return {
     },
     g = {
         tagbar_wrap = 1,
+        tagbar_scopestrs = {
+        },
         tagbar_type_go ={
             ctagstype = 'go',
             kinds = {
